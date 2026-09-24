@@ -1,0 +1,1 @@
+loadstring(game:HttpGet(https://raw.githubusercontent.com/Itachi-OP-Dev/Itachi-Scripts/refs/heads/main/greedygrowers.lua))()
