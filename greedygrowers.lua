@@ -1,9 +1,9 @@
 local Rayfield = loadstring(game:HttpGet("https://sirius.menu/rayfield"))()
 
 local Window = Rayfield:CreateWindow({
-    Name = "Automation",
+    Name = "Greedy Growers Script",
     LoadingTitle = "Automation",
-    LoadingSubtitle = "Stork + Spin Wheel",
+    LoadingSubtitle = "By itachi",
     ConfigurationSaving = {
         Enabled = false
     }
@@ -121,7 +121,7 @@ Tab:CreateToggle({
 
                     -- Wait between spins
                     -- This prevents rapid-fire requests
-                    for i = 1, 10 do
+                    for i = 1, 5 do
 
                         if not autoSpinWheel then
                             break
