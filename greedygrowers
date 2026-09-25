@@ -62,7 +62,7 @@ end
 --------------------------------------------------
 
 Tab:CreateToggle({
-    Name = "Auto Give Eggs to Stork",
+    Name = "Auto Give Eggs to Stork(Put egg to give in 0 slot (last slot) of hotbar)",
     CurrentValue = false,
     Flag = "AutoGiveEggs",
 
